@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Star Blaster</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <div class="hud">
-    <h1>🚀 STAR BLASTER</h1>
-    <div id="score">Score: 0</div>
-  </div>
+<canvas id="gameCanvas"></canvas>
 
-  <canvas id="gameCanvas"></canvas>
+<div class="hud">
+  <h1>🚀 STAR BLASTER</h1>
+  <p>Di chuyển: ← → hoặc A D</p>
+  <p>Bắn: SPACE</p>
+</div>
 
-  <script src="game.js"></script>
+<script src="game.js"></script>
 </body>
 </html>

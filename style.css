@@ -6,29 +6,25 @@
 
 body {
   overflow: hidden;
-  background: radial-gradient(circle at center, #050816, #000000);
+  background: black;
   font-family: Arial, sans-serif;
-  color: white;
 }
 
 canvas {
   display: block;
+  background: radial-gradient(circle at center, #050816 0%, #000000 100%);
 }
 
 .hud {
   position: absolute;
-  top: 20px;
-  left: 20px;
+  top: 15px;
+  left: 15px;
+  color: white;
   z-index: 10;
+  text-shadow: 0 0 10px cyan;
 }
 
 .hud h1 {
   font-size: 28px;
-  color: #00e5ff;
-  text-shadow: 0 0 10px #00e5ff;
-}
-
-#score {
-  margin-top: 10px;
-  font-size: 20px;
+  margin-bottom: 10px;
 }
